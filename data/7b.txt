@@ -1,0 +1,5 @@
+.code
+for i in range(100):
+    print random.randint(1,6)+random.randint(1,6),
+
+.endcode

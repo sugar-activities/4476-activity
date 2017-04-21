@@ -1,0 +1,24 @@
+.fg
+def do_mouse(button):
+    global carry,index
+    point=pygame.mouse.get_pos()
+    x=0
+    y=0
+    ind=0
+    for piece in pieces:
+        rect=pygame.Rect(x,y,w,h)
+        if rect.collidepoint(point):
+            if carry==None:
+                carry=piece
+                index=ind
+            else:
+                k=pieces[ind]
+                pieces[ind]=carry
+                pieces[index]=k
+                carry=None
+        x=x+w
+        ind=ind+1
+        if x==pic.get_width():
+            x=0
+            y=y+h
+.efg

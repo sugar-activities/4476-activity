@@ -1,0 +1,11 @@
+.code
+def cubes():
+    going=True
+    n=1
+    while going:
+        print n*n*n,
+        n=n+1
+        if n*n*n>10000:
+            going=False
+    print
+.endcode

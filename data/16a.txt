@@ -1,0 +1,9 @@
+.fg
+import pygame
+screenw=1200
+screenh=900
+
+rect=pygame.Rect(0,0,200,100)
+
+def do_display():
+.efg

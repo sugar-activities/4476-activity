@@ -1,0 +1,9 @@
+.code
+def test():
+    c=[0]*13
+    for i in range(1000):
+        n=random.randint(1,6)+random.randint(1,6)
+        c[n]=c[n]+1
+    print c
+
+.endcode

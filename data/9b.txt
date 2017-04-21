@@ -1,0 +1,8 @@
+.code
+def hasvowel(s):
+    answer=False
+    for c in 'aeiou':
+        if c in s:
+            answer=True
+    return answer
+.endcode

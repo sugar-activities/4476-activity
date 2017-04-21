@@ -1,0 +1,81 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 17 Chase the Rectangle Part Two
+.e
+.font
+.n
+Here's the code from Page 16 again
+.u
+.popup16d
+.r
+Hopefully the only part I need to explain is the
+.colgreen
+.font3
+global dx
+.col
+.font
+ line.
+This tells Python that
+.colgreen
+.font3
+dx
+.col
+.font
+is a memory box outside of the
+.colgreen
+.font3
+process()
+.col
+.font
+function.
+.p
+Your turn ... your rectangle moves very slowly ...
+can you speed it up?
+.u
+.popup17a
+.r
+Your rectangle only moves across the screen ...
+can you add vertical movement?
+.u
+.popup17b
+.r
+Now for the last bit - how to make the rectangle disappear when the player
+clicks on it?
+.p
+First we have to know where on the screen the player has clicked - this is how:
+.n
+.colgreen
+.font3
+point=pygame.mouse.get_pos()
+.col
+.font
+.p
+Second we have to know whether this point is on the rectangle - here's how:
+.n
+.colgreen
+.font3
+if rect.collidepoint(point):
+.col
+.font
+.p
+Finally we have to have way to stop drawing the rectangle after a successful hit.
+I chose a real sneaky way - I just set
+.colgreen
+.font3
+dx
+.col
+.font
+to zero.
+.p
+Time to show that you're a Master Python Programmer -
+.pushxy
+.n
+finish the "Chase the Rectangle" game
+all by yourself!
+.popxy
+.popup17c
+
+
+

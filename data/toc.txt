@@ -1,0 +1,35 @@
+Getting started:
+   memory boxes, numbers, strings, lists.
+Einstein's Problem.
+   Functions: sum, range, len, max, min.
+My functions: double, triple. 
+   Special words: def, return.
+My total function.
+   Special words: for, in, print.
+Six Review Exercises.
+
+Alphabet, list items.
+   Methods: append, reverse, sort
+Dice Throwing. Special word: import.
+   Method: random.randint.
+The Four Spaces. Special word: if.
+   Vowel checking.
+Equals, Not Equals, True, False.
+   My functions: hasvowel, big2. 
+Special word: while
+     My functions: squares, shuffle
+Making life easier: gedit
+
+Repeat Six Review Exercises
+     using gedit
+More gedit and
+     Mouse Location & Color
+Screen Location & Color Review
+
+Pygame - getting started
+     pg.py
+Chase The Rectangle - 1
+
+Chase The Rectangle - 2
+
+The Jigsaw Project

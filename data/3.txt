@@ -1,0 +1,97 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 3 Double & Triple
+.e
+.font
+On Page Two we met five
+.colblue
+functions:
+.colgreen
+ sum  range  len  max  min
+.col
+.n
+Try all of them again to make sure you know how to use them.
+.p
+Now for some real power -
+we're going to learn how to create our own functions!
+Let's start with a simple one -
+a function to
+.colblue
+double
+.col
+a number.
+It will work like this after we create it:
+.n
+.code
+double(70)
+.endcode
+.pre
+140
+.endpre
+Let me show you how to create the
+.colblue
+double
+.col
+function then I'll explain it:
+.n
+.code
+def double(n):
+    d=n+n
+    return d
+
+.endcode
+.colgreen
+def
+.col
+is short for
+.colblue
+define
+.col
+and tells Python that we are defining a new
+.colblue
+function
+.col
+called
+.colgreen
+double.
+.col
+.n
+.colgreen
+n
+.col
+is a memory box for storing the number we want doubled.
+We could give it any name we like.
+.n
+Note the colon
+.colgreen
+:
+.col
+at the end of the first line.
+.n
+Python is smart enough to know that there must be more to come
+so it replies "tell me more ..."
+.n
+In the next two lines the
+.colblue
+four spaces
+.col
+at the start of the line are very important and must be there.
+.n
+Finally we tell Python to
+.colgreen
+return
+.col
+the value we have worked out.
+.n
+An empty line tells Python that we have finished our new function.
+.n
+Now see if you can make it all happen on your computer.
+.p
+OK! Now repeat the whole exercise to produce a
+.colgreen
+triple
+.col
+function.
+.popup3a

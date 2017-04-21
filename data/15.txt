@@ -1,0 +1,114 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 15 Meet pygame
+.e
+.font
+Every game program is going to need the following code so please type it in
+very carefully -
+.n
+you'll only have to do it once.
+.p
+As usual start by typing
+.fg
+gedit pg.py
+.efg
+Type the following in the top pane and click the Save button.
+.u
+.popimg
+pg.png
+.p
+.p
+Check and double check your typing before proceeding -
+.n
+this program can make your computer hang if it has any mistakes!
+.p
+Absolutely sure?
+.p
+OK - test by typing
+.colgreen
+.font3
+execfile('pg.py')
+.font
+.col
+in the lower pane and press
+.fg
+enter
+.efg
+You should see a blank white screen with a tiny mouse pointer.
+.p
+Press the
+.colgreen
+.font3
+Q
+.font
+.col
+key to stop this program.
+.p
+The last 18 lines from
+.colgreen
+.font3
+pygame.init()
+.font
+.col
+onwards will always be the same -
+I won't try to explain them at this time.
+.p
+For the moment we'll be just looking at:
+.n
+* putting stuff on the screen - the
+.colgreen
+.font3
+do_display()
+.font
+.col
+function,
+and
+.n
+* what to do when the player clicks the mouse - the
+.colgreen
+.font3
+do_mouse()
+.font
+.col
+function.
+.p
+We'll always start a new game by typing
+.colgreen
+.font3
+gedit pg.py
+.col
+.font
+but then we'll immediately click
+.colblue
+.font3
+File
+.col
+.font
+and choose
+.colblue
+.font3
+Save As..
+.col
+.font
+and pick a name for our program. eg
+.colgreen
+.font3
+rect.py
+.col
+.font
+.p
+From then on we can just type
+.colgreen
+.font3
+gedit rect.py
+.col
+.font
+and our precious
+.colgreen
+.font3
+pg.py
+.col
+.font
+will remain unchanged.

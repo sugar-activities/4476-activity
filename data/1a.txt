@@ -1,0 +1,32 @@
+.font
+If
+.colgreen
+.font3
+python
+.col
+.font
+doesn't work,
+you may need to tell Windows where it is.
+.n
+Here's how to add it to your path.
+.n
+You can get to
+.colblue
+System Properties
+.col
+by right clicking
+.colblue
+My Computer
+.col
+.n
+in the
+.colblue
+Start Menu
+.col
+and choosing
+.colblue
+Properties.
+.col
+.p
+.il
+path0.png

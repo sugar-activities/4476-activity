@@ -1,0 +1,7 @@
+.code
+def info(s):
+    print 'length',len(s)
+    print 'maximum',max(s)
+    print 'minimum',min(s)
+
+.endcode

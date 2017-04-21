@@ -1,0 +1,83 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 8 The Four Spaces
+.e
+.font
+Let's have closer look at my last function:
+.n
+.code
+def test():
+    c=[0]*13
+    for i in range(1000):
+        n=random.randint(1,6)+random.randint(1,6)
+        c[n]=c[n]+1
+    print c
+.endcode
+Note that after each
+.colgreen
+.font3
+:
+.font
+.col
+we move in another 4 spaces.
+And now you can see what this is all about.
+.n
+The
+.colgreen
+.font3
+for
+.font
+.col
+loop only applies to the next 2 lines
+(we don't want to
+.colgreen
+.font3
+print c
+.font
+.col
+1000 times!)
+.n
+.colgreen
+.font3
+c[n]=c[n]+1
+.font
+.col
+this is our clever way of adding one on to counter number n.
+.p
+I have one more special word to show you before
+me move on to some really exciting stuff.
+.n
+This is the word
+.colgreen
+.font3
+if
+.font
+.col
+.n
+Here's an example of it in action:
+.n
+.code
+def test2(s):
+    if 'a' in s:
+        print s,'contains the letter a'
+    if len(s)>5:
+        print s,'is more than 5 letters'
+.endcode
+.n
+Your turn: create a function
+.colgreen
+.font3
+test3(s)
+.font
+.col
+which tells you whether
+.colgreen
+.font3
+s
+.font
+.col
+contains a vowel (a, e, i, o or u).
+.n
+.popup8a

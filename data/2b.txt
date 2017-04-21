@@ -1,0 +1,10 @@
+.code
+t=range(101)
+sum(t)
+.endcode
+.pre
+5050
+.endpre
+Yes I know! Starting with zero is a bit of a trap.
+.n
+But that's just the way it is!

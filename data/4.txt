@@ -1,0 +1,86 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 4 Total Function
+.e
+.font
+Feeling brave?
+.n
+How about combining all you've learnt so far to create a
+.colgreen
+total
+.col
+function which adds together the first
+.colgreen
+n
+.col
+numbers?
+It'll work like this:
+.n
+.mark
+.code
+total(10)
+.endcode
+.pre
+55
+.endpre
+.inset.22
+.popup4a
+.endinset
+.n
+So ... on to something new.
+Set up list
+.colgreen
+t
+.col
+with the numbers 0 to 9 in it.
+.u
+.popup4b
+.r
+.u
+Now I'd like to show you how to
+.colgreen
+print
+.col
+out these numbers one at a time:
+.n
+.code
+for n in t:
+    print n
+
+.endcode
+Now suppose we want the Five times table:
+.n
+.code
+for n in range(13):
+    print n,n*5
+
+.endcode
+Python uses
+.colgreen
+*
+.col
+for multiply.
+.n
+.mark
+Your turn - print out the Twelve times table.
+.n
+.popup4c
+.inset.6
+So now we've met five
+.colblue
+functions:
+.n
+.colgreen
+  sum  range  len  max  min
+.col
+.n
+and five
+.colblue
+special words:
+.n
+.colgreen
+  def  return  for  in  print
+.col
+.endinset

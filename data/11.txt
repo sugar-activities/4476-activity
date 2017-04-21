@@ -1,0 +1,106 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 11 Introducing gedit
+.e
+.font
+You're probably tired of having to retype everything
+whenever you make a little mistake.
+.n
+We're going to use a wonderful program called
+.colblue
+gedit
+.col
+to make our life easier.
+.n
+.mark
+.n
+XO users click for instructions:
+.inset.31
+.popup11a
+.inset.4
+.n
+Other users click for instructions:
+.inset.7
+.popup11b
+.endinset
+.n
+.n
+It will take us some work to get everything just right
+but it will be well worth it!.
+Don't worry if you don't fully understand the following -
+we only have to do it once -
+plenty of time to master all the nitty gritty when
+you're a Python Master!
+.p
+Start up Terminal and type:
+.p
+.fg
+mkdir tute
+cd tute
+gedit a.py
+.efg
+.n
+Click
+.colblue
+ Edit
+.col
+ on the Menu Bar, click
+.colblue
+ Preferences
+.col
+ and click on the
+.colblue
+ Plugins
+.col
+ tab.
+.pushy
+.u
+.popimg
+gedit_pref2.png
+.popy
+.n
+The only Plugin we want
+(ie has a dot in its box) is the
+.colblue
+Python Console
+.col
+.n
+Click the
+.colblue
+Editor
+.col
+tab and make sure the top two little boxes are ticked.
+.pushy
+.u
+.popimg
+gedit_pref1.png
+.popy
+.n
+Click the
+.colblue
+Close
+.col
+button.
+.p
+Click
+.colblue
+View
+.col
+on the Menu Bar and tick the
+.colblue
+Bottom Pane
+.col
+.p
+You can drag the border between the two panes
+so we have a little more space in the Bottom Pane.
+.p
+Click the first button to see what I ended up with
+and the second button to see my little test.
+.n
+.popimg
+gedit_first.png
+.popimg
+hello_eg.png
+

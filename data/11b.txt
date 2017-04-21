@@ -1,0 +1,37 @@
+.font
+.n
+gedit can be downloaded from
+.n
+.pre
+gedit.org
+.endpre
+You will need to add it to your path
+so when you type
+.n
+.fg
+gedit
+.efg
+Windows will find it.
+.p
+Here's how to add it to your path.
+.n
+You can get to
+.colblue
+System Properties
+.col
+by right clicking
+.colblue
+My Computer
+.col
+.n
+in the
+.colblue
+Start Menu
+.col
+and choosing
+.colblue
+Properties.
+.col
+.p
+.il
+path.png

@@ -1,0 +1,26 @@
+.pre
+.pale
+import pygame
+screenw=1200
+screenh=900
+
+rect=pygame.Rect(0,0,200,100)
+dx=1
+dy=1
+
+def do_display():
+    screen.fill((255,255,255))
+    colr=(0,255,0)
+.colgreen
+    if dx!=0:
+.pale
+        pygame.draw.rect(screen,colr,rect)
+
+def do_mouse(button):
+.colgreen
+    global dx
+    point=pygame.mouse.get_pos()
+    if rect.collidepoint(point):
+        dx=0
+.endpre
+ 

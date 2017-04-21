@@ -1,0 +1,2 @@
+.nm
+red, green and blue

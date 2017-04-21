@@ -1,0 +1,87 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 16 Chase the Rectangle Part One
+.e
+.font
+Our first game - "Chase the Rectangle" - can you catch it?
+.p
+Pygame can create a rectangle for us -
+we need to say where it will be (x,y)
+how wide it is (w)
+and how high (h) like this:
+.colgreen
+.font3
+rect=pygame.Rect(x,y,w,h)
+.col
+.font
+.p
+So ... let's get started ... start from scratch with
+.colgreen
+.font3
+gedit pg.py
+.col
+.font
+and immediately
+.colblue
+Save As ...
+.colgreen
+rect.py
+.col
+.n
+Then add the rectangle line after the top three lines.
+Start the rectangle at (0,0) with a width of 200 and a height of 100.
+.popup16a
+.r
+Save your program and run it
+.colgreen
+.font3
+execfile('rect.py')
+.col
+.font
+.p
+No rectangle eh? We still have to tell Pygame to draw it for us like this
+.colgreen
+.font3
+pygame.draw.rect(screen,colr,rect)
+.col
+.font
+where
+.colgreen
+.font3
+colr
+.col
+.font
+will have to be defined first - it's the color of the rectangle.
+So you'll need two new lines in the
+.colgreen
+.font3
+do_display()
+.col
+.font
+function.
+.popup16b
+.r
+Now to make it move across the screen we just have to add 1 onto the rectangle's
+x value
+.colgreen
+.font3
+rect.x
+.col
+.font
+This is best done in the
+.colgreen
+.font3
+process()
+.col
+.font
+function.
+.popup16c
+.r
+So how do we get it to turn around when it reaches the edge? Easiest if I show you -
+study this code and see if you can make sense of it.
+.n
+.popup16d
+.r
+.rect

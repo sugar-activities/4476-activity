@@ -1,0 +1,77 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 2 Einstein's Problem
+.e
+.font
+.it
+einstein.jpg
+There's a neat story about when Einstein was young.
+His Maths teacher decided to keep the class busy with this problem:
+"Add up the first 100 numbers."
+Einstein had the answer within seconds and didn't even use pen & paper!
+Maybe you'd like to try before moving on.
+Well maybe we can use the computer to do the work for us.
+We'll start with the first 10 numbers to get the idea.
+Please set up a list of the first 10 numbers
+in a memory box called
+.colgreen
+.font3
+t
+.col
+.font
+ Click the yellow button to see my answer.
+.e
+.popup2a
+Now for some magic! All we have to do to get Python to add the ten numbers together
+is to type
+.colgreen
+.font3
+sum(t)
+.col
+.font
+So back to the original problem ...
+but before you start madly typing the first 100 numbers
+try this instead:
+.colgreen
+.font3
+range(100)
+.col
+.font
+More magic eh?
+.n
+So now you should be able to get the answer all by yourself!
+.u
+.popup2b
+.r
+And it would be just as easy to add together the first 1,000 numbers.
+Why don't you try? The answer is
+.colblue
+.font3
+500500.
+.col
+.font
+.n
+.colgreen
+sum
+.col
+and
+.colgreen
+range
+.col
+are called
+.colblue
+functions.
+.col
+ Here's some more for you to try:
+.colgreen
+ len  max  min
+.col
+.n
+.mark
+.popup2c
+.inset.11
+.p
+Click to see how Einstein did it.
+.n

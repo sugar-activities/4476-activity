@@ -1,0 +1,111 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 18 The Jigsaw Project
+.e
+.font
+.mark
+.inset.5
+This is our final project -
+have a play with this mini jigsaw
+so you can see what we're aiming for.
+.n
+.n
+You'll need a 1200x900 picture
+called
+.colblue
+pic.jpg
+.col
+.popup18a
+.r
+.u
+.u
+in the same place as your python files.
+.n
+.n
+Start from scratch with
+.colgreen
+.font3
+gedit pg.py
+.col
+.font
+and immediately
+.colblue
+Save As ...
+.colgreen
+jigsaw.py
+.col
+.n
+.n
+Here's how to load and display a picture.
+.u
+.popup18b
+.r
+To break the picture up into pieces
+you'll need this piece of Pygame magic:
+.n
+.fg
+piece=pic.subsurface(x,y,w,h)
+.efg
+I put my 12 pieces in a list called
+.colgreen
+.font3
+pieces
+.col
+.font
+.u
+.popup18c
+.pushy
+.endinset
+.popy
+.pushy
+Then I shuffled the list
+.u
+.popup18d
+.popy
+               You should now be able to draw the shuffled pieces
+.u
+.popup18e
+.r
+Now the tricky bit - I set up memory boxes
+.colgreen
+.font3
+carry
+.col
+.font
+and
+.colgreen
+.font3
+index
+.col
+.font
+to remember which piece the player clicked on.
+I set them to
+.colgreen
+.font3
+None
+.col
+.font
+when the carried piece is put down.
+.p
+Here's my
+.colgreen
+.font3
+do_display()
+.col
+.font
+function and my
+.colgreen
+.font3
+do_mouse()
+.col
+.font
+function:
+.u
+.pushy
+.popup18f
+.popy
+          .
+.popup18g
+.jig

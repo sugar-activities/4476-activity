@@ -1,0 +1,7 @@
+.code
+def total(n):
+    t=range(n+1)
+    s=sum(t)
+    return s
+
+.endcode

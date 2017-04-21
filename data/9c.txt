@@ -1,0 +1,9 @@
+.code
+def big2(t):
+    ans=0
+    for n in t:
+        if n!=max(t):
+            if n>ans:
+                ans=n
+    return ans
+.endcode

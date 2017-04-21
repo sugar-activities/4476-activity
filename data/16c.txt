@@ -1,0 +1,11 @@
+.fg
+def process():
+    rect.x=rect.x+1
+.efg
+You can delete the
+.colgreen
+.font3
+pass
+.col
+.font
+line.

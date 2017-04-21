@@ -1,0 +1,19 @@
+.code
+def triple(n):
+    t=n+n+n
+    return t
+
+.endcode
+Your answer may not be the same.
+.n
+As long as it works that's all that matters.
+.n
+I hope you tested your answer.
+.n
+Here's my test:
+.n
+.code
+triple(30)
+.endcode
+.pre
+90

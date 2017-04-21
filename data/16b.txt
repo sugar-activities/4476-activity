@@ -1,0 +1,6 @@
+.fg
+def do_display():
+    screen.fill((255,255,255))
+    colr=(0,255,0)
+    pygame.draw.rect(screen,colr,rect)
+.efg

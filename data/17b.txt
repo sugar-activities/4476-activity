@@ -1,0 +1,36 @@
+.pre
+.pale
+import pygame
+screenw=1200
+screenh=900
+rect=pygame.Rect(0,0,200,100)
+dx=1
+.colgreen
+dy=1
+.pale
+
+def do_display():
+    screen.fill((255,255,255))
+    colr=(0,255,0)
+    pygame.draw.rect(screen,colr,rect)
+
+def do_mouse(button):
+    pass
+
+def process():
+.colgreen
+    global dx,dy
+.pale
+    rect.x=rect.x+dx
+    if rect.x<0:
+        dx=-dx
+    if (rect.x+rect.w)>screenw:
+        dx=-dx
+.colgreen
+    rect.y=rect.y+dy
+    if rect.y<0:
+        dy=-dy
+    if (rect.y+rect.h)>screenh:
+        dy=-dy
+.endpre
+ 

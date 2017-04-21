@@ -1,0 +1,11 @@
+.fg
+import pygame
+screenw=1200
+screenh=900
+
+pic=pygame.image.load('pic.jpg')
+
+def do_display():
+    screen.fill((255,255,255))
+    screen.blit(pic,(0,0))
+.efg

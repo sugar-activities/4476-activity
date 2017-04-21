@@ -1,0 +1,103 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 1 Getting Started
+.e
+.font
+Hi! This tute will show you how to program a computer
+using the Python language.
+The best approach is to have two computers side-by-side -
+one with this tutorial, the other for doing the work on.
+.p
+.it
+terminal.png
+Start up Terminal and then type
+.colgreen
+python
+.col
+followed by the
+.colgreen
+enter
+.col
+key
+- you should see
+.colblue
+>>>
+.col
+this means Python is ready for your commands!
+ Windows users - click this button:
+.popup1a
+.e
+.u
+Just to get you started and to see how easy it is, type
+.colgreen
+.font3
+2+3
+.font
+.col
+.p
+Make sure that you always press the
+.colgreen
+enter
+.col
+key
+after typing.
+.p
+Inside the computer are heaps of boxes.
+You can give these boxes names - as short as you like -
+.colgreen
+a
+.col
+or real long -
+.colgreen
+thisisareallylongboxname
+.col
+We'll use short names to save lots of typing.
+.p
+To put something in a box is real easy - here's some examples to try:
+.p
+.mark
+.code
+a=5
+b=3
+c='hi'
+d='Peter'
+e=[1,2,3,4]
+f=[8,'cat']
+.endcode
+.inset.3
+.n
+Now try playing with your memory boxes -
+here's some examples:
+.n
+.code
+a+b
+a-b
+c+d
+e+f
+.endcode
+.endinset
+Play around lots - notice that some expressions produce an error.
+.n
+The things in quotes are called
+.colblue
+strings
+.col
+eg
+.colgreen
+.font3
+'Peter'
+.col
+.font
+.n
+and the things in square brackets are called
+.colblue
+lists
+.col
+eg
+.colgreen
+.font3
+[1,2,3,4]
+.col
+.font

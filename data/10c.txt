@@ -1,0 +1,21 @@
+.code
+import random
+.endcode
+.code
+def shuffle(t):
+    n=len(t)
+    for i in range(100):
+        r1=random.randint(0,n-1)
+        r2=random.randint(0,n-1)
+        k=t[r1]
+        t[r1]=t[r2]
+        t[r2]=k
+
+.endcode
+.code
+t=range(10)
+shuffle(t)
+print t
+[2, 1, 4, 3, 5, 6, 9, 7, 0, 8]
+.endcode
+ 

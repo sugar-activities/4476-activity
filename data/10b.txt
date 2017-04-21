@@ -1,0 +1,4 @@
+.font
+Swap a random pair of list items.
+.n
+Do this 100 times.

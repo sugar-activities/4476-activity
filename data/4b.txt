@@ -1,0 +1,3 @@
+.code
+t=range(10)
+.endcode

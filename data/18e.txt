@@ -1,0 +1,14 @@
+.pre
+.pale
+def do_display():
+    screen.fill((0,0,255))
+.colgreen
+    x=0
+    y=0
+    for piece in pieces:
+        screen.blit(piece,(x,y))
+        x=x+w
+        if x==pic.get_width():
+            x=0
+            y=y+h
+.endpre

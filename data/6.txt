@@ -1,0 +1,80 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 6 Playing with the Alphabet
+.e
+.font
+Set up a list
+.colgreen
+.font3
+a
+.font
+.col
+which contains the letters of the alphabet.
+.n
+To save you a lot of typing, here's a quick way to do it:
+.n
+.code
+a=['']
+for c in 'abcdefghijklmnopqrstuvwxyz':
+    a.append(c)
+
+print a
+.endcode
+.pre
+['', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+.endpre
+We can pick out single items from our list like this:
+.n
+.code
+print a[10]
+.endcode
+.pre
+j
+.endpre
+And indeed j is the 10th letter.
+But notice how yet again Python starts at zero
+which is why I've got that empty item at the start of my list.
+.n
+Ok ... let's see what we can do with our list. Try this:
+.n
+.code
+a.reverse()
+.endcode
+I know! Nothing seemed to happen! But try printing
+.colgreen
+.font3
+a
+.font
+.col
+again.
+.n
+.colblue
+.font3
+append
+.font
+.col
+and
+.colblue
+.font3
+reverse
+.font
+.col
+are called
+.colblue
+.font3
+methods.
+.font
+.col
+Here's another one for you to try:
+.colblue
+.font3
+sort.
+.font
+.col
+.p
+When you're sure you've understood this page about list items
+and methods, move on to the next page where we'll do
+an interesting experiment using this knowledge.

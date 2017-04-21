@@ -1,0 +1,2 @@
+.nm
+x increases and y stays the same

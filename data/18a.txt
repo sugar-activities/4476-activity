@@ -1,0 +1,10 @@
+.font
+You can use my picture if you like:
+.p
+.colblue
+.font3
+[... tute]$
+.colgreen
+cp  ../Activities/PythonTute.activity/data/pic.jpg  pic.jpg
+.col
+.font

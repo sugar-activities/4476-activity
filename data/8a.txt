@@ -1,0 +1,21 @@
+.code
+def test3(s):
+    if 'a' in s:
+        print s,'contains the vowel a'
+    if 'e' in s:
+        print s,'contains the vowel e'
+    if 'i' in s:
+        print s,'contains the vowel i'
+    if 'o' in s:
+        print s,'contains the vowel o'
+    if 'u' in s:
+        print s,'contains the vowel u'
+.endcode
+An answer with less typing:
+.n
+.code
+def test3(s):
+    for c in 'aeiou':
+        if c in s:
+            print s,'contains the vowel',c
+.endcode

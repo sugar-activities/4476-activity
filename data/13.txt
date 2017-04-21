@@ -1,0 +1,87 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 13 Mouse Location & Color Specification
+.e
+.font
+Start from scratch so you can type
+.colgreen
+.font3
+ gedit times.py
+.font
+.col
+ (we don't want to wipe out our previous work safely saved in
+.colgreen
+.font3
+a.py
+.font
+.col
+do we?)
+.n
+Do the 75 times table again but use a function this time so that
+we can use our work for any number by just changing the
+.colgreen
+.font3
+75.
+.font
+.col
+My work:
+.popimg
+times.png
+.n
+.n
+.n
+Now repeat the dice experiment from page 7
+using gedit - call the function
+.colgreen
+.font3
+dice
+.font
+.col
+this time and, as always, start from scratch by typing
+.colgreen
+.font3
+gedit dice.py
+.font
+.col
+ My answer:
+.popimg
+dice.png
+.n
+.n
+.n
+Finally use gedit to redo the
+.colgreen
+.font3
+shuffle
+.font
+.col
+function from page 10.
+.popimg
+shuffle.png
+.n
+.n
+.n
+If you've got this far we're ready to move on to the really
+exciting stuff with Python -
+creating games.
+We'll need to be able to put pictures on the screen,
+move the mouse pointer,
+work out what the player is doing and so on.
+Some great people have made this a lot easier by doing all this stuff
+for us - it's all in a module called
+.fg
+pygame
+.efg
+But first we'll have to learn how things are laid out on the screen and how
+color works. To get you started, the blue display at top right
+is showing you where the mouse pointer is right now.
+.p
+.mark
+.inset.32
+And if you place the mouse pointer over these colors,
+you'll see how color is specified.
+.endinset
+.mouse
+.color

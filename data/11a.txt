@@ -1,0 +1,5 @@
+.font
+.n
+gedit should already be installed on your XO.
+.p
+ 

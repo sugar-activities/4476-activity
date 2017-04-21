@@ -1,0 +1,77 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 5 Six Review Exercises
+.e
+.font
+We've met five
+.colblue
+functions:
+.colgreen
+sum range len max min
+.col
+ and five
+.colblue
+special words:
+.colgreen
+def return for in print
+.col
+.p
+Not bad for such a short time
+but let's do more practice to make sure you know them really well.
+.n
+.p
+1. Store this string in a memory box called
+.colgreen
+s
+.colblue
+Python is great
+.col
+
+.u
+.popup5a
+.r
+2. How long is this string?
+
+.u
+.popup5b
+.r
+3. Create a function which will square a number. It will work like this:
+.n
+.mark
+.code
+square(7)
+.endcode
+.pre
+49
+.endpre
+.n
+.inset.2
+.popup5c
+.endinset
+4. Print out the 75 times table.
+.u
+.popup5d
+.r
+5. Print out the first 100 square numbers starting at zero (0,1,4,9,...)
+
+.u
+.popup5e
+.r
+6. Create a function which will tell you all about a list.
+It will work like this:
+.n
+.mark
+.code
+info([7,3,5])
+.endcode
+.pre
+length 3
+maximum 7
+minimum 3
+.endpre
+.inset.25
+.n
+.popup5f
+.endinset

@@ -1,0 +1,74 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 12 Six Review Exercises Revisited
+.e
+.font
+For gedit practice, repeat the six questions from Page 5.
+.n
+Notice that they can all be done in the lower pane.
+Here's my efforts:
+.u
+.popimg
+egs_repeat.png
+.n
+.p
+.it
+great.png
+.n
+So ... what's the Big Deal about using gedit?
+.n
+.n
+The Big Deal is that we can
+.colblue
+save
+.col
+our work and easily
+.colblue
+change
+.col
+it.
+.p
+Try these steps:
+.p
+1. Type in your code in the Top Panel.
+.p
+2. Click the Save icon (I've circled it).
+.p
+3. In the Bottom Pane type
+.colgreen
+.font3
+ execfile('a.py')
+.font
+.col
+.n
+.n
+Now change
+.colblue
+Python is great
+.col
+to
+.colblue
+Python is really great
+.col
+and repeat steps 2 and 3
+(Click where you want to insert the new word).
+My try:
+.popimg
+really_great.png
+.n
+.n
+.n
+And you don't even need to keep typing
+.colgreen
+.font3
+ execfile('a.py')
+.font
+.col
+- just press the
+.colblue
+Up
+.col
+arrow to recall what you last typed.
+.e

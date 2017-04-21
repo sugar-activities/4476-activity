@@ -1,0 +1,63 @@
+.font
+Did you try something like
+.n
+.code
+7=7
+.endcode
+and wonder why you got an error?
+.n
+If not, try it now.
+.n
+The problem is we've already used
+.colgreen
+.font3
+=
+.font
+.col
+to mean something else.
+.n
+For example
+.colgreen
+.font3
+a=7
+.font
+.col
+means put a
+.colgreen
+.font3
+7
+.font
+.col
+in memory box
+.colgreen
+.font3
+a
+.font
+.col
+.p
+To test whether two things are equal we use two
+.colgreen
+.font3
+=
+.font
+.col
+signs like this:
+.n
+.code
+7==7
+5==7
+.endcode
+.n
+And to test whether two things are NOT equal we use
+.colgreen
+.font3
+!=
+.font
+.col
+like this:
+  
+.n
+.code
+7!=7
+5!=7
+.endcode

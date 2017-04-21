@@ -1,0 +1,80 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 7 Dice Throwing
+.e
+.font
+.movie
+dice
+How can Python possibly roll a die?
+For the moment we'll settle for randomly picking a number between 1 and 6.
+First we have to tell Python we want to use the random stuff:
+.n
+.code
+import random
+.endcode
+Then this is how to pick a number between 1 and 6:
+.n
+.code
+print random.randint(1,6)
+.endcode
+.clear
+.p
+Your turn - print out 100 die throws.
+.u
+.popup7a
+.r
+Did you notice how I added a comma so my numbers went across the screen?
+.n
+.n
+Now ... can you repeat the experiment using two dice?
+.u
+.popup7b
+.r
+So which number comes up most?
+We're going to use the computer to find out.
+.n
+Here's the plan: we'll throw the two dice 1,000 times
+and count how often each number comes up.
+.n
+The biggest number is 12 so we'll need a list of 12 counters
+which I'll call
+.colgreen
+.font3
+c.
+.col
+.font
+.n
+Here's a neat way to set up the counters all set to zero:
+.code
+c=[0]*13
+.endcode
+.r
+Why 13? Because Python starts counting at zero so
+.colgreen
+.font3
+c[12]
+.col
+.font
+will now be counter number 12.
+.n
+See how far you can get before looking at my answer.
+I set up a function called
+.colgreen
+.font3
+test()
+.col
+.font
+so I could run the experiment many times without lots of retyping
+by just typing
+.colgreen
+.font3
+test()
+.col
+.font
+.n
+.popup7c
+.u
+.u
+            Study it carefully - there's lots to learn here.

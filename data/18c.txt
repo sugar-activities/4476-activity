@@ -1,0 +1,24 @@
+.pre
+.pale
+import pygame
+screenw=1200
+screenh=900
+
+pic=pygame.image.load('pic.jpg')
+.colgreen
+w=pic.get_width()/4
+h=pic.get_height()/3
+x=0
+y=0
+pieces=[]
+for i in range(12):
+    piece=pic.subsurface(x,y,w,h)
+    pieces.append(piece)
+    x=x+w
+    if x==pic.get_width():
+        x=0
+        y=y+h
+
+.pale
+def do_display():
+.endpre

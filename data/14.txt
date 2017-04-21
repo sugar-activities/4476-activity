@@ -1,0 +1,66 @@
+.n
+.font1
+.it
+python.png
+Tutorial Page 14 Mouse Location & Color Review
+.e
+.font
+Use the previous page if necessary to answer the following questions:
+.n
+.n
+1. A 
+.colblue
+screen position
+.col
+is specified by two numbers
+.colblue
+(x,y)
+.col
+.pushxy
+.n
+What is the pair for the top left corner of the screen?
+.popxy
+.popup14a
+.r
+2. What happens to the x and y numbers as you move across the screen?
+.u
+.popup14b
+.n
+3. What happens to the x and y numbers as you move down the screen?
+.u
+.popup14c
+.r
+4. A
+.colblue
+color
+.col
+is specified by a triple of numbers like this
+.colblue
+(r,g,b)
+.col
+.pushxy
+.n
+What is the largest value for any one of these numbers?
+.popxy
+.popup14d
+.r
+5. Why did I use the letters r, g and b?
+.u
+.popup14e
+.r
+6. Which of these triples would produce pink?
+(255,200,200) (100,0,0) (100,255,255)
+.u
+.popup14f
+.r
+7. The triple (100,0,100) is which color?
+light blue, purple or yellow
+.u
+.popup14g
+.r
+8. What do you think (100,100,100) will produce?
+.u
+.popup14h
+
+
+

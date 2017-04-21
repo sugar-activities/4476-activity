@@ -1,0 +1,21 @@
+.fg
+carry=None
+index=None
+
+def do_display():
+    screen.fill((0,0,255))
+    x=0
+    y=0
+    for piece in pieces:
+        if piece!=carry:
+            screen.blit(piece,(x,y))
+        x=x+w
+        if x==pic.get_width():
+            x=0
+            y=y+h
+    if carry!=None:
+        x,y=pygame.mouse.get_pos()
+        x=x-w/2
+        y=y-h/2
+        screen.blit(carry,(x,y))
+.efg
